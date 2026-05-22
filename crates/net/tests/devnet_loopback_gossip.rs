@@ -35,6 +35,7 @@ fn loopback_cfg(bootstrap: Vec<String>) -> NetConfig {
             max_peers: 8,
             ban_duration_secs: 60,
         },
+        macro_subnet_count: 0,
     }
 }
 
